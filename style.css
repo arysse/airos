@@ -48,7 +48,6 @@ html {
   background-color: black;
   z-index: 9999;
 opacity: 0.5;
-    transform: translate(-50%, -50%);
 }
 
 a:hover {
