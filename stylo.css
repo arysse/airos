@@ -79,7 +79,7 @@ h1:hover {
   -webkit-text-fill-color: transparent;
   background-clip: text;
   text-fill-color: transparent;
-  transform: scale(1.01);
+  transform: scale(1.05);
 }
 
 .main {
@@ -176,4 +176,8 @@ h3 {
     background-color: black;
     padding: 30px;
     margin-top: 27vh;
+}
+
+#gradient {
+        background: linear-gradient(to bottom, #fff, gray);
 }
