@@ -39,26 +39,16 @@ html {
 
 #circle {
   position: fixed;
-  width: 1px;
-  height: 1px;
+  width: 20px;
+  height: 20px;
   border: 2px solid black;
   border-radius: 50%;
   pointer-events: none;
   transform: translate(-50%, -50%);
-  background-color: white;
+  background-color: black;
   z-index: 9999;
-}
-
-#circle2 {
-  position: fixed;
-  width: 50px;
-  height: 50px;
-  border: 2px solid #15c14d;
-  border-radius: 50%;
-  pointer-events: none;
-  transform: translate(-50%, -50%);
-  transition: all 0.5s ease-out;
-  z-index: 9999;
+opacity: 0.5;
+    transform: translate(-50%, -50%);
 }
 
 a:hover {
