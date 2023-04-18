@@ -5,3 +5,4 @@ document.addEventListener("mousemove", function(event) {
   circle.style.left = x + "px";
   circle.style.top = y + "px";
 });
+
